@@ -18,8 +18,7 @@ public class StudentConfig {
                         1L,
                         "Alita",
                         "Alita@gmail.com",
-                        LocalDate.of(2000, Month.APRIL, 5),
-                        21
+                        LocalDate.of(2000, Month.APRIL, 5)
                 );
 
             repository.saveAll(List.of(alita));

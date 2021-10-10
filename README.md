@@ -18,4 +18,8 @@
   - pg_stop
   - psql
   - ref : https://gist.github.com/ibraheem4/ce5ccd3e4d7a65589ce84f2a3b7c23a3
+
+# Run .jar
+  - cd target
+  - java -jar demo-0.0.1-SNAPSHOT.jar --server.port=8081
   
